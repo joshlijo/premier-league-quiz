@@ -5,6 +5,7 @@ import Result from "./components/Result";
 import Welcome from "./components/Welcome";
 import FootballProgress from "./components/FootballProgress";
 import Footer from "./components/Footer";
+import { Analytics } from '@vercel/analytics/react';
 
 // Clubs that need black footer text
 const clubsWithWhite = [
@@ -75,6 +76,9 @@ export default function App() {
 
       {/* ✅ Footer always visible, only dark on result page for white clubs */}
       <Footer isBright={isBrightFooter} />
+
+      {/* ✅ Vercel Analytics tracking */}
+      <Analytics />
     </div>
   );
 }

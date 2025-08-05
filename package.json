@@ -1,0 +1,25 @@
+{
+  "name": "premier-league-quiz-starter",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.4.1",
+    "vite": "^7.0.6"
+  },
+  "dependencies": {
+    "@uidotdev/usehooks": "^2.4.1",
+    "canvas-confetti": "^1.9.3",
+    "framer-motion": "^12.23.7",
+    "html2canvas": "^1.4.1",
+    "react": "^18.3.1",
+    "react-confetti": "^6.4.0",
+    "react-dom": "^18.3.1"
+  }
+}

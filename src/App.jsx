@@ -7,6 +7,9 @@ import FootballProgress from "./components/FootballProgress";
 import Footer from "./components/Footer";
 import { Analytics } from '@vercel/analytics/react';
 
+// Debug: Check if Analytics component renders
+console.log("🔍 App.jsx loaded — analytics setup in place.");
+
 // Clubs that need black footer text
 const clubsWithWhite = [
   "Fulham",
@@ -78,7 +81,10 @@ export default function App() {
       <Footer isBright={isBrightFooter} />
 
       {/* ✅ Vercel Analytics tracking */}
-      <Analytics />
+      <div id="analytics-wrapper">
+        {console.log("📈 Rendering <Analytics /> now")}
+        <Analytics />
+      </div>
     </div>
   );
 }

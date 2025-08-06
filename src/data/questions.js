@@ -3,7 +3,7 @@
 export const questions = [
   {
     id: 1,
-    text: "What do you value most in a club?",
+    text: "What do you value most in a football club?",
     options: [
       { text: "Trophies and legacy.", clubs: { "Manchester United": 2, "Liverpool": 2 } },
       { text: "Exciting young talent.", clubs: { "Arsenal": 2, "Aston Villa": 2 } },
@@ -43,7 +43,7 @@ export const questions = [
   },
   {
     id: 5,
-    text: "Would you rather support a club that...",
+    text: "Would you rather support a football club that...",
     options: [
       { text: "Wins trophies, but gets hated.", clubs: { "Chelsea": 2, "Manchester City": 2 } },
       { text: "Never wins, but is loved deeply.", clubs: { "Everton": 2, "Nottingham Forest": 2 } },
@@ -63,7 +63,7 @@ export const questions = [
   },
   {
     id: 7,
-    text: "If you were a club owner, what would your vibe be?",
+    text: "If you owned a football club, what would your vibe be?",
     options: [
       { text: "Lavish spender chasing trophies.", clubs: { "Manchester United": 2, "Chelsea": 2} },
       { text: "Careful investor building from the academy.", clubs: { "Arsenal": 2, "Brighton & Hove Albion": 2} },
@@ -103,7 +103,7 @@ export const questions = [
   },
   {
     id: 11,
-    text: "A new billionaire wants to buy your club. You say:",
+    text: "A new billionaire wants to buy your football club. You say:",
     options: [
       { text: "YES. Splash the cash.", clubs: { "Chelsea": 2, "Manchester City": 2 } },
       { text: "No thanks. We do things our way.", clubs: { "Brentford": 2, "Brighton & Hove Albion": 2 } },
@@ -143,7 +143,7 @@ export const questions = [
   },
   {
     id: 15,
-    text: "You'd be most at home at a club that...",
+    text: "You'd be most at home at a football club that...",
     options: [
       { text: "Gets global attention.", clubs: { "Manchester United": 2, "Chelsea": 2 } },
       { text: "Feels like one big family.", clubs: { "West Ham United": 2, "Fulham": 2 } },
@@ -173,7 +173,7 @@ export const questions = [
   },
   {
     id: 18,
-    text: "Your friend is picking a club. You say...",
+    text: "Your friend is picking a football club to support. You say...",
     options: [
       { text: "Pick a club that matches your values.", clubs: { "Newcastle United": 2, "Brighton & Hove Albion": 2 } },
       { text: "Go big or go home.", clubs: { "Chelsea": 2, "Manchester City": 2 } },
@@ -183,7 +183,7 @@ export const questions = [
   },
   {
     id: 19,
-    text: "How do you want your club to grow?",
+    text: "How do you want your football club to grow?",
     options: [
       { text: "Academy kids + data magic.", clubs: { "Brighton & Hove Albion": 2, "Brentford": 2 } },
       { text: "Buy big, win big.", clubs: { "Chelsea": 2, "Manchester City": 2 } },
@@ -203,7 +203,7 @@ export const questions = [
   },
   {
     id: 21,
-    text: "Your ideal club anthem would be...",
+    text: "Your ideal football club anthem would be...",
     options: [
       { text: "A gritty rock ballad with local pride.", clubs: { "Wolverhampton Wanderers": 2, "Nottingham Forest": 2 } },
       { text: "A viral TikTok remix, probably.", clubs: { "Aston Villa": 2, "Tottenham Hotspur": 2 } },
@@ -283,7 +283,7 @@ export const questions = [
   },
   {
     id: 29,
-    text: "Choose a club personality:",
+    text: "Choose a football club personality:",
     options: [
       { text: "Cult classic with niche fans.", clubs: { "Sunderland": 2, "Fulham": 2 } },
       { text: "Constant rebuild mode.", clubs: { "Nottingham Forest": 2, "Everton": 2 } },

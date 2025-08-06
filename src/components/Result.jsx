@@ -71,8 +71,8 @@ export default function Result() {
       confetti({
         particleCount: 400,
         angle: 90,
-        spread: 90,
-        startVelocity: 35,
+        spread: 140,
+        startVelocity: 30,
         origin: { x: 0.5, y: 0 },
         colors: [primary, secondary, "#ffffff", "#000000"],
         scalar: 1.1,
@@ -131,7 +131,7 @@ export default function Result() {
   const { primary } = clubColors[topClub];
   const textColorClass = isLight(primary) ? "text-black" : "text-white";
 
-  const resultText = `🏆 I got ${topClub} on the Premier League Personality Quiz!\n\nAccording to the quiz, ${clubReasons[topClub].me}\n\nTake the quiz 👉 [your link here]`;
+  const resultText = `🏆 I got ${topClub} on the Premier League Personality Quiz!\n\nAccording to the quiz, ${clubReasons[topClub].me}\n\nTake the quiz 👉 https://premierleaguequiz.vercel.app/`;
 
   const handleCopy = () => {
     navigator.clipboard.writeText(resultText);
@@ -190,14 +190,14 @@ export default function Result() {
       </div>
 
       {/* Main result card */}
-      <div className="fixed inset-0 z-50 flex items-center justify-center pt-4 sm:pt-5">
+      <div className="fixed inset-0 z-50 flex items-center justify-center pt-4 sm:pt-6 md:pt-10">
         <div
           style={{
             background: primary,
             border: `2px solid ${primary}`,
             boxShadow: `0 0 50px ${primary}aa, 0 0 100px ${primary}55`,
           }}
-          className={`p-10 rounded-2xl ${textColorClass} text-center space-y-6 animate-fade-in transition-all duration-500 max-w-3xl w-[92%]`}
+          className={`p-6 sm:p-10 rounded-2xl ${textColorClass} text-center space-y-6 animate-fade-in transition-all duration-500 max-w-3xl w-[92%]`}
         >
           <h2 className="text-2xl font-bold">You're most like:</h2>
           <h1 className="text-4xl font-extrabold">{topClub}</h1>

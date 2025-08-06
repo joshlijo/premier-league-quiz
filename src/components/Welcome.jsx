@@ -16,7 +16,7 @@ export default function Welcome() {
       initial={{ opacity: 0, scale: 0.95 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      className="bg-white/10 backdrop-blur-xl text-white rounded-2xl shadow-xl px-8 py-12 w-full max-w-2xl text-center animate-fadeIn"
+      className="bg-white/10 backdrop-blur-xl text-white rounded-2xl shadow-xl px-4 sm:px-8 py-10 sm:py-12 w-full max-w-2xl text-center animate-fadeIn"
     >
       <h1 className="text-4xl sm:text-5xl font-extrabold leading-tight mb-6 text-white">
         ⚽ Premier League<br />Personality Quiz
@@ -24,7 +24,7 @@ export default function Welcome() {
 
       <p className="text-lg text-white/90 mb-8">
         Find out which Premier League club matches your personality.<br />
-        30 fun questions. Total chaos. No football knowledge needed.
+        30 fun questions. No football knowledge needed.
       </p>
 
       <motion.button

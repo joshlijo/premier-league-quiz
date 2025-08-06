@@ -26,8 +26,8 @@ export default function Question() {
   }
 
   return (
-    <div className="h-[30rem] flex items-center justify-center w-full px-4">
-      <div className="p-8 max-w-xl w-full mx-auto bg-white text-gray-900 rounded-2xl shadow-xl border border-gray-200 transition-all duration-300 ease-in-out animate-fadeIn">
+    <div className="min-h-[30rem] flex items-center justify-center w-full sm:px-6 px-4">
+      <div className="p-6 sm:p-8 w-full max-w-2xl bg-white text-gray-900 rounded-2xl shadow-xl border border-gray-200 transition-all duration-300 ease-in-out animate-fadeIn">
         <h2 className="text-2xl font-semibold mb-6 text-purple-700">
           Q{currentQ + 1}. {q.text}
         </h2>

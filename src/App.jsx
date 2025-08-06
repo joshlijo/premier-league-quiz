@@ -63,7 +63,7 @@ export default function App() {
       </div>
 
       <main className="flex-1 flex items-center justify-center px-4">
-        <div className="w-full max-w-2xl flex items-center justify-center -translate-y-4">
+        <div className="w-full max-w-4xl sm:px-6 px-4 flex items-center justify-center -translate-y-4">
           {currentQ === -1 ? (
             <Welcome />
           ) : currentQ < questions.length ? (
